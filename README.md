@@ -1,2 +1,2 @@
 # ReactNativeDemo
-ReactNativeDemo 联系demo
+ReactNativeDemo 练习demo
