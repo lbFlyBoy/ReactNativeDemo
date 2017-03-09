@@ -12,6 +12,52 @@ import {
   View
 } from 'react-native';
 
+/*
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+    Image,
+    TextInput
+} from 'react-native';
+
+var Dimensions = require('Dimensions');
+
+
+
+export default class HelloWordOne extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text>当前宽度是屏幕的：{Dimensions.get('window').height}</Text>
+        <Image source={{uri:'https://img.alicdn.com/tps/TB1OvT9NVXXXXXdaFXXXXXXXXXX-520-280.jpg'}} style={styles.imageStyle}/>
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    // backgroundColor:'gray',
+      flex:1,
+    // flexDirection:'row',
+    marginTop:25,
+    justifyContent:'center',
+    alignItems:'center'
+  },
+    imageStyle:{
+      width:100,
+        height:100,
+        resizeMode:Image.resizeMode.contain
+    }
+});
+
+AppRegistry.registerComponent('HelloWordOne', () => HelloWordOne);
+
+*/
+
 export default class imoocApp extends Component {
 
   constructor(props){
